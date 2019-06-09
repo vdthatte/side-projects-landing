@@ -282,9 +282,9 @@ body{
 	}
 
 	.fade-in.six {
-	  -webkit-animation-delay: 1s;
-	  -moz-animation-delay: 1s;
-	  animation-delay: 1s;
+	  -webkit-animation-delay: 11s;
+	  -moz-animation-delay: 11s;
+	  animation-delay: 11s;
 	}
 
 	@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
