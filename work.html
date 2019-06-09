@@ -3,7 +3,10 @@
 		<link rel="stylesheet" href="index.css">
 		<title>Side Projects</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 	</head>
+
+
 	<body>	
 
 
@@ -14,7 +17,11 @@
 
 		 				<div class="flex-grid">
 			 				<div class="col">
-
+			 					<div>
+			 						<button id="workImg"><img class="workImg" src="work1.png"/></button>
+			 						<button id="workImg"><img id="workImg" class="workImg" src="work2.png"/></button>
+			 						<button id="workImg"><img id="workImg" class="workImg" src="work3.png"/></button>
+			 					</div>
 			 				</div>
 			 				<div class="col">
 
@@ -30,6 +37,7 @@
 											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 										</p>
 
+
 			 						</div>
 			 				</div>	
 		 				</div>
@@ -41,4 +49,14 @@
 			</div>
 
 	</body>
+
+	<script>
+		$( "#workImg" ).click(function() {
+		  $( "#main_video" ).click();
+		});
+
+		$( "#main_video" ).click(function() {
+		  alert( "Handler for .click() called." );
+		});
+	</script>
 </html>
