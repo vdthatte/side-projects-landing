@@ -7,56 +7,39 @@
 	</head>
 
 
-	<body>	
-
-
-			<div class="loading_screen">
- 			
-	 			<div class="scroll_box">
-		 			<section class="main" id="1">
-
-		 				<div class="flex-grid">
-			 				<div class="col">
-			 					<div>
-			 						<button id="workImg"><img class="workImg" src="work1.png"/></button>
-			 						<button id="workImg"><img id="workImg" class="workImg" src="work2.png"/></button>
-			 						<button id="workImg"><img id="workImg" class="workImg" src="work3.png"/></button>
-			 					</div>
-			 				</div>
-			 				<div class="col">
-
-			 						<div class="main_video">
-
-			 							<div class="menu_section">
-				 							<a class="menu_button" href="us.html">US</a><br/>
-				 							<a class="menu_button" href="work.html">WORK</a><br/>
-				 							<a class="menu_button" href="contact.html">CONTACT</a><br/>
-			 							</div>
-
-										<p class="work_paragraph">
-											Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-										</p>
-
-
-			 						</div>
-			 				</div>	
-		 				</div>
-
-					</section>
-
-				<footer>
-				</footer>
+	<body class="fade-in">	
+		<div class="flex-grid">
+			<div class="col">
+			 	<div>
+			 		<button class="workButton" onclick="myFunction(0)" name="0"><img class="workImg" src="work1.png"/></button>
+			 		<button class="workButton" onclick="myFunction(1)" name="1"><img class="workImg" src="work2.png"/></button>
+			 		<button class="workButton" onclick="myFunction(2)" name="2"><img class="workImg" src="work3.png"/></button>
+			 	</div>
 			</div>
+			 
+			 <div class="col">
+			 		<div class="main_video">
+			 			<div class="menu_section_light">
+				 			<a class="menu_button" href="us.html">US</a><br/>
+				 			<a class="menu_button" href="work.html">WORK</a><br/>
+				 			<a class="menu_button" href="contact.html">CONTACT</a><br/>
+			 			</div>
+
+						<p id="work_paragraph" class="work_paragraph">
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+						</p>
+
+			 		</div>
+			 	</div>	
+		 	</div>
 
 	</body>
 
 	<script>
-		$( "#workImg" ).click(function() {
-		  $( "#main_video" ).click();
-		});
+		var work = ["one", "two", "three"]
 
-		$( "#main_video" ).click(function() {
-		  alert( "Handler for .click() called." );
-		});
+		function myFunction(index) {
+  			document.getElementById("work_paragraph").innerHTML = work[index];
+  		}
 	</script>
 </html>
