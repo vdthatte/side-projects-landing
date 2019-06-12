@@ -7,13 +7,16 @@
 	</head>
 
 
-	<body class="fade-in">	
+	<body class="fade-in" id="scroll">	
 		<div class="flex-grid">
 			<div class="col">
 			 	<div>
 			 		<button class="workButton" onclick="myFunction(0)" name="0"><img class="workImg" src="work1.png"/></button>
 			 		<button class="workButton" onclick="myFunction(1)" name="1"><img class="workImg" src="work2.png"/></button>
 			 		<button class="workButton" onclick="myFunction(2)" name="2"><img class="workImg" src="work3.png"/></button>
+			 		<button class="workButton" onclick="myFunction(3)" name="0"><img class="workImg" src="work1.png"/></button>
+			 		<button class="workButton" onclick="myFunction(4)" name="1"><img class="workImg" src="work2.png"/></button>
+			 		<button class="workButton" onclick="myFunction(5)" name="2"><img class="workImg" src="work3.png"/></button>
 			 	</div>
 			</div>
 			 
@@ -36,7 +39,9 @@
 	</body>
 
 	<script>
-		var work = ["one", "two", "three"]
+		var work = ["one", "two", "three", "four", "five", "six"]
+
+		$("#scroll").niceScroll({scrollspeed: 120});
 
 		function myFunction(index) {
   			document.getElementById("work_paragraph").innerHTML = work[index];
