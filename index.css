@@ -124,13 +124,16 @@ body{
 	 }
 
 	.logo{
-		width: 90%;
-		margin-top: 15%;
+		width: 30%;
+		margin-top: 50%;
+		margin-left: 35%;
 		margin-bottom: 40%;
 	}
 
 	.logo_small{
-		width: 200px;
+		padding-top: 1%;
+		padding-left: 1%;
+		width: 150px;
 		left: 0;
 		top: 0;
 		position: fixed;
@@ -193,7 +196,7 @@ body{
 	}
 
 	.youtube_iframe{
-		margin-top: 32%;
+		margin-top: 25%;
 		width: 70%; 
 		height: 35%;
 	}
