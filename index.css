@@ -257,12 +257,12 @@ body{
 	}
 
 	.about_paragraph{
-		font-size: 18px;
+		font-size: 15px;
 		font-weight: 300;
 		color: #fff;
-		width: 80%;
-		margin-left: 10%;
-		padding-top: 15%;
+		width: 60%;
+		margin-left: 20%;
+		padding-top: 10%;
 		padding-bottom: 10%;
 	}
 
