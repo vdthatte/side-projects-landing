@@ -1,6 +1,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="work.css">
 		<title>Side Projects</title>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -11,12 +12,12 @@
 		<div class="flex-grid">
 			<div class="col">
 			 	<div id="scroll">
-			 		<button class="workButton" onclick="myFunction(0)" name="0"><img class="workImg" src="work1.png"/></button>
-			 		<button class="workButton" onclick="myFunction(1)" name="1"><img class="workImg" src="work2.png"/></button>
-			 		<button class="workButton" onclick="myFunction(2)" name="2"><img class="workImg" src="work3.png"/></button>
-			 		<button class="workButton" onclick="myFunction(3)" name="0"><img class="workImg" src="work1.png"/></button>
-			 		<button class="workButton" onclick="myFunction(4)" name="1"><img class="workImg" src="work2.png"/></button>
-			 		<button class="workButton" onclick="myFunction(5)" name="2"><img class="workImg" src="work3.png"/></button>
+			 		<button class="workButton" onmouseover="myFunction(0)" name="0"><img class="workImg" src="work1.png"/></button>
+			 		<button class="workButton" onmouseover="myFunction(1)" name="1"><img class="workImg" src="work2.png"/></button>
+			 		<button class="workButton" onmouseover="myFunction(2)" name="2"><img class="workImg" src="work3.png"/></button>
+			 		<button class="workButton" onmouseover="myFunction(3)" name="0"><img class="workImg" src="work1.png"/></button>
+			 		<button class="workButton" onmouseover="myFunction(4)" name="1"><img class="workImg" src="work2.png"/></button>
+			 		<button class="workButton" onmouseover="myFunction(5)" name="2"><img class="workImg" src="work3.png"/></button>
 			 	</div>
 			</div>
 			 
@@ -32,6 +33,10 @@
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 						</p>
 
+						<p id="number_of_videos" class="number_of_videos">
+							0 / 10
+						</p>
+
 			 		</div>
 			 	</div>	
 		 	</div>
@@ -41,10 +46,9 @@
 	<script>
 		var work = ["one", "two", "three", "four", "five", "six"]
 
-		$("#scroll").niceScroll({scrollspeed: 10});
-
 		function myFunction(index) {
   			document.getElementById("work_paragraph").innerHTML = work[index];
+  			document.getElementById("number_of_videos").innerHTML = index + " / 10";
   		}
 	</script>
 </html>
