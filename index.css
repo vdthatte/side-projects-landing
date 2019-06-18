@@ -9,17 +9,37 @@ body{
 @media (max-width: 900px) {
 
 	.main_heading{
-		padding-top: 20%;
-		padding-bottom: 10%;
-		font-size: 36px;	
+		font-size: 128px;	
 		color: #fff;
 		font-style: italic;
 	}
 
+	 .col{
+
+	 }
+
+	 .flex-grid {
+
+	 }
+
+	.logo{
+		visibility: hidden;
+	}
+
+	.logo_small{
+		padding-top: 1%;
+		padding-left: 1%;
+		width: 150px;
+		left: 0;
+		top: 0;
+		position: fixed;
+	}
+
 	.main{
-		padding-top: 5%;
-		padding-bottom: 3%;
+		padding-top: 0%;
+		padding-bottom: 0%;
 		scroll-behavior: smooth;
+		top: 0;
 	}
 
 	.main_tagline{
@@ -28,18 +48,59 @@ body{
 		font-weight: 300;	
 	}
 
-	.youtube_iframe{
-		width: 96%; 
-		height: 30%;
+	.menu_section{
+		margin-top: 1%;
+	}
+
+	.menu_section_light{
+		margin-top: 2%;
+	}
+
+	.menu_button{
+		padding-top: 0%;
+		color: #000;
+		background: none;
+		border: none;
+		outline: none;
+		right: 0;
+		font-size: 18px;
+		position: fixed;
+		padding-right: 2%;
+		text-decoration: none;
+	}
+
+	.menu_button_light{
+		padding-top: 0%;
+		color: #FFF;
+		background: none;
+		border: none;
+		outline: none;
+		right: 0;
+		font-size: 16px;
+		position: fixed;
+		padding-right: 2%;
+		text-decoration: none;
 	}
 
 	.main_video{
-		
+		background-color: #fff;
+		width: 100%;
+		right: 0;
+		top: 0;
+		bottom: 0;
+		position: fixed;
 	}
 
+	.youtube_iframe{
+		margin-top: 45%;
+		width: 90%; 
+		height: 30%;
+	}
+
+
 	.work_image{
-		width: 90%;
-		height: 40%;
+		width: 36%;
+		height: 36%;
 		margin: 5%;
 		object-fit: cover;
 	}
@@ -51,7 +112,7 @@ body{
 
 	.work_button, .about_button{
 		color: #fff;
-		padding-top: 5%;
+		padding-top: 2%;
 		top: 0;
 		text-decoration: none;
 		font-size: 22px;
@@ -59,13 +120,25 @@ body{
 	}
 
 	.work_button{
-		float: right;
-		padding-right: 5%;
+
+	}
+
+	.workImg{
+		width: 100%;
+		height: 300px;
+		object-fit: cover;
+	}
+
+	.workButton{
+		background: none;
+		outline: none;
+		border: none;
+		padding-top: 1%;
+		padding-bottom: 1%;
 	}
 
 	.about_button{
-		float: left;
-		padding-left: 5%;
+
 	}
 
 	.scroll_box{
@@ -74,36 +147,101 @@ body{
 	}
 
 	.footerText{
-		margin-top: 10%;
-		margin-bottom: 20%;
+		margin-top: 0%;
+		margin-bottom: 5%;
 		color: #fff;
 		font-weight: 300;
 	}
 
-	.about_paragraph{
+	.work_paragraph{
 		font-size: 22px;
+		font-weight: 300;
+		color: #000;
+		width: 80%;
+		padding-top: 15%;
+		padding-left: 5%;
+		padding-right: 5%;
+		margin-top: 20%;
+		text-align: left;
+	}
+
+	.number_of_videos{
+		font-size: 22px;
+		font-weight: 300;
+		color: #000;
+		width: 80%;
+		padding-top: 0%;
+		padding-left: 3%;
+		padding-right: 5%;
+		padding-bottom: 2%;
+		margin-top: 5%;
+		text-align: left;
+		position: fixed;
+		bottom: 0;
+	}
+
+	.about_paragraph{
+		font-size: 18px;
 		font-weight: 300;
 		color: #fff;
 		width: 90%;
 		margin-left: 5%;
-		margin-top: 20%;
-		text-align: justify;
-	}
-
-
-
-	.work_image:hover{
-		opacity: 1;
-		transition: 0.2s;
+		padding-top: 10%;
+		padding-bottom: 40%;
 	}
 
 	.header{
-		position: fixed;
+
+	}
+
+	.social_link{
+		color: #fff;
+	}
+
+	.social_links{
+		padding-top: 50%;
+		padding-left: 15%;
+	}
+
+	.loading_screen{
 		top: 0;
+		z-index: 999;
+		background-color: #000;
+	}
+
+	.loadingVideo{
+		z-index: -999;
+		position: fixed;
 		left: 0;
-		width: 100%;
-		height: 12%;
-		background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0))
+		padding-left: 0%;
+		padding-top: 60%;
+		width: 350px;
+	}
+
+	.fade-in.six {
+	  -webkit-animation-delay: 11s;
+	  -moz-animation-delay: 11s;
+	  animation-delay: 11s;
+	}
+
+	@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+	@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+	@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+
+	.fade-in {
+		opacity:0; 
+		-webkit-animation:fadeIn ease-in 1; 
+		-moz-animation:fadeIn ease-in 1;
+		animation:fadeIn ease-in 1;
+
+		-webkit-animation-fill-mode:forwards;  
+		-moz-animation-fill-mode:forwards;
+		animation-fill-mode:forwards;
+
+		-webkit-animation-duration:1s;
+		-moz-animation-duration:1s;
+		animation-duration:1s;
 	}
 }
 
