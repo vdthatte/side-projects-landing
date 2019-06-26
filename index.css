@@ -206,6 +206,11 @@ body{
 		padding-left: 0%;
 		padding-top: 60%;
 		width: 350px;
+		visibility: hidden;
+	}
+
+	.videoBackground{
+		visibility: hidden;
 	}
 
 
@@ -234,9 +239,9 @@ body{
 	}
 
 	.fade-in.six {
-	  -webkit-animation-delay: 11s;
-	  -moz-animation-delay: 11s;
-	  animation-delay: 11s;
+	  -webkit-animation-delay: 0s;
+	  -moz-animation-delay: 0s;
+	  animation-delay: 0s;
 	}
 
 	@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
