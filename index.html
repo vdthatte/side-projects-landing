@@ -7,14 +7,18 @@
 	<body>	
 		
 		<center>
-		    <video 
-		    	class="loadingVideo"
-		    	src="loading_video.mp4"
-		        autoplay = "1"
-		        muted = "true"
-		        width= "840"
-		        frameborder="0"
-		    ></video>
+			<div class="videoBackground">
+				<center>
+					<video 
+				    	class="loadingVideo"
+				    	src="loading_video.mp4"
+				        autoplay = "1"
+				        muted = "true"
+				        width= "720"
+				        frameborder="0"
+				    ></video>
+				</center>
+		    </div>
      	</center>
 
 			<div class="loading_screen fade-in six">
@@ -23,24 +27,29 @@
 		 			<section class="main" id="1">
 
 		 				<div class="flex-grid">
+
 			 				<div class="col">
-			 					<img src="logo.png" class="logo"/>
+			 					<div class="main_logo_background">
+			 						<img src="logo.png" class="logo"/>
+			 					</div>
 			 				</div>
+
 			 				<div class="col">
 
-			 						<div class="main_video">
-			 							<div class="menu_section_light">
-				 							<a class="menu_button" href="us.html">US</a><br/>
-				 							<a class="menu_button" href="work.html">WORK</a><br/>
-				 							<a class="menu_button" href="contact.html">CONTACT</a><br/>
-			 							</div>
-
-			 							<center>
-			 								<iframe class="youtube_iframe" src="https://www.youtube.com/embed/ew_X92NXcqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-			 							</center>
-
+			 					<div class="main_video">
+			 						<div class="menu_section_light light_mobile">
+				 						<a class="menu_button" href="us.html">US</a><br/>
+				 						<a class="menu_button" href="work.html">WORK</a><br/>
+				 						<a class="menu_button" href="contact.html">CONTACT</a><br/>
 			 						</div>
+
+			 						<center>
+			 							<a class="latestLink" href="latest.html"><img class="latest_video" src="latest.png"/></a>
+			 						</center>
+			 					</div>
+
 			 				</div>	
+
 		 				</div>
 
 					</section>

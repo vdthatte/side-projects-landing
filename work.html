@@ -12,12 +12,12 @@
 		<div class="flex-grid">
 			<div class="col">
 			 	<div id="scroll">
-			 		<button class="workButton" onmouseover="myFunction(0)" name="0"><img class="workImg" src="work1.png"/></button>
-			 		<button class="workButton" onmouseover="myFunction(1)" name="1"><img class="workImg" src="work2.png"/></button>
-			 		<button class="workButton" onmouseover="myFunction(2)" name="2"><img class="workImg" src="work3.png"/></button>
-			 		<button class="workButton" onmouseover="myFunction(3)" name="0"><img class="workImg" src="work1.png"/></button>
-			 		<button class="workButton" onmouseover="myFunction(4)" name="1"><img class="workImg" src="work2.png"/></button>
-			 		<button class="workButton" onmouseover="myFunction(5)" name="2"><img class="workImg" src="work3.png"/></button>
+			 		<div class="work_videos">
+			 			<button class="workButton" onmouseover="myFunction(0)" name="0"><a href="work1.html"><img class="workImg" src="work1.png"/></a></button>
+			 			<button class="workButton" onmouseover="myFunction(1)" name="1"><a href="work2.html"><img class="workImg" src="work2.png"/></a></button>
+			 			<button class="workButton" onmouseover="myFunction(2)" name="2"><a href="work3.html"><img class="workImg" src="work3.png"/></a></button>
+			 			<button class="workButton" onmouseover="myFunction(3)" name="0"><img class="workImg" src="work4.png"/></button>
+			 		</div>
 			 	</div>
 			</div>
 			 
@@ -30,11 +30,11 @@
 			 			</div>
 
 						<p id="work_paragraph" class="work_paragraph">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+							SAMSUNG Driven Russell Westbrook
 						</p>
 
 						<p id="number_of_videos" class="number_of_videos">
-							0 / 10
+							1 / 4
 						</p>
 
 			 		</div>
@@ -44,11 +44,11 @@
 	</body>
 
 	<script>
-		var work = ["one", "two", "three", "four", "five", "six"]
+		var work = ["SAMSUNG Driven Russell Westbrook", "downtowngirlsbball", "Surviving in the NBA", "Elvira Spring/Summer 2018"]
 
 		function myFunction(index) {
   			document.getElementById("work_paragraph").innerHTML = work[index];
-  			document.getElementById("number_of_videos").innerHTML = index + 1 + " / 10";
+  			document.getElementById("number_of_videos").innerHTML = index + 1 + " / 4";
   		}
 	</script>
 </html>
