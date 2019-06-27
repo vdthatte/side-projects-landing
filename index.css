@@ -434,19 +434,19 @@ body{
 	}
 
 	.work_paragraph{
-		font-size: 22px;
+		font-size: 17px;
 		font-weight: 300;
 		color: #000;
 		width: 80%;
 		padding-top: 15%;
 		padding-left: 5%;
 		padding-right: 5%;
-		margin-top: 20%;
+		margin-top: 30%;
 		text-align: left;
 	}
 
 	.number_of_videos{
-		font-size: 22px;
+		font-size: 17px;
 		font-weight: 300;
 		color: #000;
 		width: 80%;
@@ -530,7 +530,7 @@ body{
 		font-size: 2.4vw;
 		z-index: 999;
 		margin-left: 1%;
-		margin-top: 1%;
+		margin-top: 25%;
 	}
 
 	@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
