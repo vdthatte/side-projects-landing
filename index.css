@@ -72,6 +72,7 @@ body{
 		position: fixed;
 		padding-right: 2%;
 		text-decoration: none;
+		letter-spacing: 5px;
 	}
 
 	.menu_button_light{
@@ -85,6 +86,7 @@ body{
 		position: fixed;
 		padding-right: 2%;
 		text-decoration: none;
+		letter-spacing: 5px;
 	}
 
 	.main_video{
@@ -129,7 +131,7 @@ body{
 	}
 
 	.workImg{
-		height: 300px;
+		height: 200px;
 		width: 100%;
 		object-fit: cover;
 	}
@@ -139,7 +141,7 @@ body{
 		outline: none;
 		border: none;
 		padding-top: 1%;
-		padding-bottom: 1%;
+		padding-bottom: 2%;
 	}
 
 	.about_button{
@@ -339,6 +341,7 @@ body{
 		position: fixed;
 		padding-right: 2%;
 		text-decoration: none;
+		letter-spacing: 3px;
 	}
 
 	.menu_button_light{
@@ -352,6 +355,7 @@ body{
 		position: fixed;
 		padding-right: 2%;
 		text-decoration: none;
+		letter-spacing: 3px;
 	}
 
 	.latest_video{
