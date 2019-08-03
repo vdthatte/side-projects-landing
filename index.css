@@ -154,7 +154,10 @@ body{
 	}
 
 	.work_videos{
-		padding-top: 30%;
+		visibility: hidden;
+		z-index: -999;
+		position: fixed;
+		top: 0;
 	}
 
 	.footerText{
@@ -165,11 +168,17 @@ body{
 	}
 
 	.work_paragraph{
-		visibility: hidden;
+		font-size: 16px;
+		font-weight: 300;
+		color: #000;
+		width: 80%;
+		text-align: left;
+		padding-left: 2.5%;
 	}
 
 	.number_of_videos{
-		visibility: hidden;
+		font-size: 17px;
+		padding-left: 2.5%;
 	}
 
 	.about_paragraph{
@@ -240,6 +249,33 @@ body{
 		background-color: #000;
 	}
 
+	.work_videos_mobile{
+		margin-top: 20%;
+		margin-bottom: 40%;
+	}
+
+
+	.work-description-section{
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		z-index: 999;
+		background-color: #fff;
+		width: 100%;
+		height: 30%;
+		padding-left: 4%;
+		padding-right: 20%;
+	}
+
+	.name-title{
+		font-size: 22px;
+		font-weight: 700;
+		padding-left: 2.5%;
+		padding-top: 5%;
+		line-height: 1em;
+	}
+
 	.fade-in.six {
 	  -webkit-animation-delay: 0s;
 	  -moz-animation-delay: 0s;
@@ -265,9 +301,30 @@ body{
 		-moz-animation-duration:1s;
 		animation-duration:1s;
 	}
+
+	.ig-logo{
+		position: fixed;
+		top: 0;
+		z-index: -999;
+		visibility: hidden;
+	}
+
+	.sp-black-logo{
+		position: fixed;
+		top: 0;
+		z-index: -999;
+		visibility: hidden;
+	}
 }
 
 @media (min-width: 900px) {
+
+	.work_videos_mobile{
+		visibility: hidden;
+		position: fixed;
+		z-index: -999;
+		top: 0;
+	}
 
 	.work_videos{
 		padding-top: 0%;
