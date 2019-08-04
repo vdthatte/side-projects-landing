@@ -224,9 +224,10 @@ body{
 		z-index: -999;
 		position: fixed;
 		left: 0;
+		right: 0;
 		padding-left: 0%;
 		padding-top: 25%;
-		width: 350px;
+		width: 100%;
 		border: none;
 	}
 
