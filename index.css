@@ -69,21 +69,23 @@ body{
 
 
 	.menu_button{
-		padding-top: 0%;
+		padding-top: 2%;
+		padding-right: 3%;
 		color: #000;
 		background: none;
 		border: none;
 		outline: none;
 		right: 0;
-		font-size: 18px;
+		font-size: 16px;
 		position: fixed;
-		padding-right: 3%;
 		text-decoration: none;
-		letter-spacing: 2px;
+		letter-spacing: 3px;
 	}
 
 	.menu_button_light{
-		padding-top: 0%;
+		padding-top: 1%;
+		padding-right: 3%;
+		padding-bottom: 2%;
 		color: #FFF;
 		background: none;
 		border: none;
@@ -91,9 +93,8 @@ body{
 		right: 0;
 		font-size: 16px;
 		position: fixed;
-		padding-right: 2%;
 		text-decoration: none;
-		letter-spacing: 5px;
+		letter-spacing: 3px;
 	}
 
 	.main_video{
@@ -224,13 +225,13 @@ body{
 		position: fixed;
 		left: 0;
 		padding-left: 0%;
-		padding-top: 60%;
+		padding-top: 25%;
 		width: 350px;
-		visibility: hidden;
+
 	}
 
 	.videoBackground{
-		visibility: hidden;
+
 	}
 
 
@@ -286,9 +287,9 @@ body{
 	}
 
 	.fade-in.six {
-	  -webkit-animation-delay: 0s;
-	  -moz-animation-delay: 0s;
-	  animation-delay: 0s;
+	  -webkit-animation-delay: 5s;
+	  -moz-animation-delay: 5s;
+	  animation-delay: 5s;
 	}
 
 	@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
@@ -319,9 +320,12 @@ body{
 	}
 
 	.sp-black-logo{
-		position: fixed;
+		padding-left: 1%;
+		width: 70px;
+		left: 0;
 		top: 0;
-		z-index: -999;
+		position: fixed;
+		z-index: 999;
 		visibility: hidden;
 	}
 }
