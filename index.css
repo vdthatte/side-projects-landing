@@ -3,7 +3,6 @@
 
 body{
 	font-family: 'Overpass Mono', monospace;
-	background-color: #000;
 }
 
 @media (max-width: 900px) {
@@ -54,10 +53,14 @@ body{
 	}
 
 	.menu_section_light{
-		margin-top: 2%;
-		position: fixed;
+		padding-top: 2%;
+		padding-bottom: 2%;
+		background-color: #fff;
+		width: 100%;
 		top: 0;
+		left: 0;
 		right: 0;
+		position: fixed;
 	}
 
 
@@ -70,9 +73,9 @@ body{
 		right: 0;
 		font-size: 18px;
 		position: fixed;
-		padding-right: 2%;
+		padding-right: 3%;
 		text-decoration: none;
-		letter-spacing: 5px;
+		letter-spacing: 2px;
 	}
 
 	.menu_button_light{
@@ -207,7 +210,7 @@ body{
 	.loading_screen{
 		top: 0;
 		z-index: 999;
-		background-color: #000;
+		background-color: #fff;
 	}
 
 	.loadingVideo{
@@ -250,8 +253,8 @@ body{
 	}
 
 	.work_videos_mobile{
-		margin-top: 20%;
-		margin-bottom: 40%;
+		margin-top: 10%;
+		margin-bottom: 50%;
 	}
 
 
@@ -365,7 +368,7 @@ body{
 	.logo_small{
 		padding-top: 1%;
 		padding-left: 1%;
-		width: 150px;
+		width: 100px;
 		left: 0;
 		top: 0;
 		position: fixed;
@@ -389,11 +392,10 @@ body{
 	}
 
 	.menu_section_light{
-		margin-top: 2%;
 	}
 
 	.menu_button{
-		padding-top: 0%;
+		padding-top: 1%;
 		color: #000;
 		background: none;
 		border: none;
@@ -401,9 +403,9 @@ body{
 		right: 0;
 		font-size: 14px;
 		position: fixed;
-		padding-right: 2%;
+		padding-right: 1%;
 		text-decoration: none;
-		letter-spacing: 3px;
+		letter-spacing: 2px;
 	}
 
 	.menu_button_light{
@@ -515,7 +517,7 @@ body{
 	}
 
 	.about_paragraph{
-		font-size: 18px;
+		font-size: 20px;
 		font-weight: 300;
 		color: #fff;
 		width: 60%;
@@ -540,12 +542,12 @@ body{
 	.loading_screen{
 		top: 0;
 		z-index: 999;
-		background-color: #000;
+		background-color: #fff;
 	}
 
 	.loadingVideo{
 		z-index: -1;
-		padding-top: 15%;
+		padding-top: 2.5%;
 	}
 
 	.videoBackground{
@@ -558,9 +560,9 @@ body{
 	}
 
 	.fade-in.six {
-	  -webkit-animation-delay: 11s;
-	  -moz-animation-delay: 11s;
-	  animation-delay: 11s;
+	  -webkit-animation-delay: 5s;
+	  -moz-animation-delay: 5s;
+	  animation-delay: 5s;
 	}
 
 	.work_page{
