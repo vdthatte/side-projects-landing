@@ -229,6 +229,7 @@ body{
 		padding-top: 10%;
 		width: 100%;
 		border: none;
+		outline: none;
 	}
 
 	.videoBackground{
